@@ -11,23 +11,39 @@ The App is used to view the Stock Market results of different companies around t
 
 State Management
                 ----> Provider
+
+
 Design Pattern
                 ----> MVVM
+
+
 Project Structure
+
                 -lib
+
                     --model
+
                     --services
+
                     --utils
+
                     --viewModels
+
                     --view
+
                     --widgets
 
 
 Packages
+
                 ----> Http
+
                 ----> Connectivity_plus
+
                 ----> Provider
+
                 ----> get_it
+                
                 ----> intl
 
  
