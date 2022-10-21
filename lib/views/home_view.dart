@@ -39,24 +39,6 @@ class HomeView extends StatelessWidget {
               "${StringsUtil.today}: ${today.day}-${today.month}-${today.year}",
               style: textStyleGrey18Bold,
             ),
-
-            // Container(
-            //   height: 50,
-            //   child: Column(
-            //     children: [
-            //       Text(
-            //   "${StringsUtil.today}: ${today.day}-${today.month}-${today.year}",
-            //   style: textStyleGrey18Bold,
-            // ),
-
-            // Text(
-            //   "${StringsUtil.today}: ${today.day}-${today.month}-${today.year}",
-            //   style: textStyleGrey18Bold,
-            // ),
-            //     ],
-
-            //   ),
-            // ),
             const SizedBox(
               height: 16,
             ),
@@ -114,23 +96,6 @@ class HomeView extends StatelessWidget {
                 : Text(StringsUtil.stockMarketCompanies,
                     style: textStyleOrange9W500),
 
-            // usersViewModel.artistList.isNotEmpty
-            //     ? SizedBox(
-            //         height: 400,
-            //         child: ListView.builder(
-            //           itemCount: usersViewModel.artistList.length,
-            //           itemBuilder: (BuildContext context, int index) {
-            //             return SizedBox(
-            //               child: Text(
-            //                 usersViewModel.artistList[index].name!,
-            //                 style: const TextStyle(
-            //                     fontSize: 16, fontWeight: FontWeight.bold),
-            //               ),
-            //             );
-            //           },
-            //         ),
-            //       )
-            //     :
             // Body
             _keyword.isEmpty
                 ? body(context, homeViewModel)

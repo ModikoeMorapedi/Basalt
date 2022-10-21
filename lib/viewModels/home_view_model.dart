@@ -72,14 +72,7 @@ class HomeViewModel extends ChangeNotifier {
         stockListResponse.forEach((element) {
           symbolsList.add(element.symbol!);
         });
-        print(symbolsList);
         symbols = symbolsList.join(',');
-
-        print(stockListResponse);
-
-        // .where((element) =>
-        //     element.name!.toLowerCase().contains(text.toLowerCase()))
-        // .toList();
       }
 
       if (symbols != null && symbols != "" || response != null) {
@@ -87,8 +80,6 @@ class HomeViewModel extends ChangeNotifier {
         // StockMarket art = response as StockMarket;
         //Filter the response coming from the services
         stockListNames = response.data!;
-
-        print(stockListNames);
         symbols = "";
       }
 
